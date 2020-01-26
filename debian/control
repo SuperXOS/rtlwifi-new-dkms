@@ -1,0 +1,11 @@
+Source: rtlwifi-new-dkms
+Section: misc
+Priority: optional
+Maintainer: Wrishiraj Kaushik <wrix@libresoft.in>
+Build-Depends: debhelper (>= 7), dkms
+Standards-Version: 3.8.1
+
+Package: rtlwifi-new-dkms
+Architecture: amd64
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: rtlwifi-new driver in DKMS format.

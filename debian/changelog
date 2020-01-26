@@ -1,0 +1,6 @@
+rtlwifi-new-dkms (0.6) Lamarr; urgency=low
+
+  * Automatically packaged by DKMS.
+
+ -- Wrishiraj Kaushik <wrix@libresoft.in> Sun, 26 Jan 2020 16:05:33 +0530
+
