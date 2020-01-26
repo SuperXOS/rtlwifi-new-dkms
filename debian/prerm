@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 NAME=rtlwifi-new
 VERSION=0.6
@@ -22,6 +22,10 @@ case "$1" in
 esac
 
 #DEBHELPER#
+
+if [ -e /etc/modprobe.d/50-rtl8723de.conf ]; then
+  rm /etc/modprobe.d/50-rtl8723de.conf
+fi
 
 exit 0
 

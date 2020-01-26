@@ -46,4 +46,6 @@ esac
 
 #DEBHELPER#
 
+echo "options rtl8723de ant_sel=2" > /etc/modprobe.d/50-rtl8723de.conf
+
 exit 0
